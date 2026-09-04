@@ -7,7 +7,7 @@ about:
   head: cb59b97
   archived: false
   latestVersion: maven-4.0.0-rc-6
-  collectedAt: 2026-09-04T19:20:20Z
+  collectedAt: 2026-09-04T21:20:38Z
 timeline:
   created: 2009-05-21
   lastCommit: 2026-09-04
@@ -19,7 +19,7 @@ popularity:
   release: 34
   contributor: 253
   pullRequest: 4327
-  issue: 8666
+  issue: 8667
 language:
   Java: 15408545
   Shell: 32361
@@ -33,59 +33,137 @@ recent:
   last30d:
     since: 2026-08-05
     release: 0
-    mergedPR: 270
-    openPR: 26
+    mergedPR: 272
+    openPR: 24
     closedIssue: 33
-    openIssue: 5
+    openIssue: 6
     commit: 166
   last60d:
     since: 2026-07-06
     release: 2
-    mergedPR: 418
-    openPR: 33
+    mergedPR: 420
+    openPR: 31
     closedIssue: 96
-    openIssue: 12
+    openIssue: 13
     commit: 283
   last90d:
     since: 2026-06-06
     release: 2
-    mergedPR: 571
-    openPR: 35
+    mergedPR: 573
+    openPR: 33
     closedIssue: 109
-    openIssue: 13
+    openIssue: 14
     commit: 409
   last180d:
     since: 2026-03-08
     release: 5
-    mergedPR: 882
-    openPR: 46
+    mergedPR: 884
+    openPR: 44
     closedIssue: 163
-    openIssue: 16
+    openIssue: 17
     commit: 551
   last360d:
     since: 2025-09-09
     release: 8
-    mergedPR: 1336
-    openPR: 58
+    mergedPR: 1338
+    openPR: 56
     closedIssue: 254
-    openIssue: 32
+    openIssue: 33
     commit: 798
   last720d:
     since: 2024-09-14
     release: 15
-    mergedPR: 2089
-    openPR: 72
+    mergedPR: 2091
+    openPR: 70
     closedIssue: 1348
-    openIssue: 110
+    openIssue: 111
     commit: 1383
 total:
   release: 34
-  mergedPR: 3015
-  openPR: 98
+  mergedPR: 3017
+  openPR: 96
   closedIssue: 8086
-  openIssue: 580
+  openIssue: 581
   commit: 16394
 ---
+path: /home/runner/.x-repo/github.com/apache/maven
+collectedAt: 2026-09-04T21:20:45Z
+loc:
+  Java:
+    code: 234211
+    comments: 115345
+    blanks: 49595
+    files: 3186
+  Xml:
+    code: 94601
+    comments: 41769
+    blanks: 8604
+    files: 3194
+  Velocity:
+    code: 4994
+    comments: 257
+    blanks: 443
+    files: 27
+  Batch:
+    code: 453
+    comments: 0
+    blanks: 71
+    files: 6
+  Sh:
+    code: 430
+    comments: 340
+    blanks: 102
+    files: 10
+  Dockerfile:
+    code: 50
+    comments: 96
+    blanks: 22
+    files: 6
+  Html:
+    code: 34
+    comments: 18
+    blanks: 3
+    files: 1
+  Makefile:
+    code: 20
+    comments: 32
+    blanks: 9
+    files: 2
+  Protobuf:
+    code: 17
+    comments: 0
+    blanks: 5
+    files: 1
+  Bitbake:
+    code: 11
+    comments: 17
+    blanks: 3
+    files: 1
+  Yaml:
+    code: 4
+    comments: 2
+    blanks: 2
+    files: 2
+  Groovy:
+    code: 3
+    comments: 18
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 2095
+    blanks: 640
+    files: 42
+  Text:
+    code: 0
+    comments: 6035
+    blanks: 374
+    files: 58
+total:
+  code: 334914
+  comments: 166028
+  blanks: 59876
+  files: 6537
 ---
 date: "2026-08-24"
 repo:
