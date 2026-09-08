@@ -2,13 +2,13 @@ about:
   description: "Apache Maven core"
   license: Apache-2.0
   homepage: https://maven.apache.org/ref/current
-  head: 7f5d22e
+  head: 379f991
   archived: false
   latestVersion: "maven-4.0.0-rc-6"
-  collectedAt: 2026-09-08T01:45:27Z
+  collectedAt: 2026-09-08T04:24:36Z
 timeline:
   created: 2009-05-21
-  lastCommit: 2026-09-07
+  lastCommit: 2026-09-08
   lastRelease: 2026-07-30
 popularity:
   star: 5343
@@ -31,61 +31,61 @@ recent:
   last30d:
     since: 2026-08-09
     release: 0
-    mergedPR: 262
-    openPR: 20
+    mergedPR: 266
+    openPR: 16
     closedIssue: 33
     openIssue: 4
-    commit: 165
+    commit: 167
   last60d:
     since: 2026-07-10
     release: 2
-    mergedPR: 415
-    openPR: 34
+    mergedPR: 419
+    openPR: 30
     closedIssue: 89
     openIssue: 9
-    commit: 273
+    commit: 275
   last90d:
     since: 2026-06-10
     release: 2
-    mergedPR: 586
-    openPR: 36
+    mergedPR: 590
+    openPR: 32
     closedIssue: 112
     openIssue: 12
-    commit: 399
+    commit: 401
   last180d:
     since: 2026-03-12
     release: 5
-    mergedPR: 889
-    openPR: 45
+    mergedPR: 893
+    openPR: 41
     closedIssue: 162
     openIssue: 15
-    commit: 559
+    commit: 561
   last360d:
     since: 2025-09-13
     release: 8
-    mergedPR: 1352
-    openPR: 59
+    mergedPR: 1356
+    openPR: 55
     closedIssue: 255
     openIssue: 30
-    commit: 792
+    commit: 794
   last720d:
     since: 2024-09-18
     release: 15
-    mergedPR: 2106
-    openPR: 73
+    mergedPR: 2110
+    openPR: 69
     closedIssue: 1342
     openIssue: 108
-    commit: 1391
+    commit: 1393
 total:
   release: 34
-  mergedPR: 3034
-  openPR: 99
+  mergedPR: 3038
+  openPR: 95
   closedIssue: 8091
   openIssue: 577
-  commit: 16403
+  commit: 16405
 ---
 path: /home/runner/.x-repo/github.com/apache/maven
-collectedAt: 2026-09-08T01:45:40Z
+collectedAt: 2026-09-08T04:24:52Z
 loc:
   Java:
     code: 234706
