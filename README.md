@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 273 | 24 | 30 | 6 | 176 |
-| last60d | 2026-07-12 | 2 | 423 | 38 | 89 | 10 | 284 |
-| 90d | 2026-06-12 | 2 | 600 | 40 | 113 | 14 | 410 |
-| last180d | 2026-03-14 | 4 | 904 | 47 | 161 | 17 | 570 |
-| 360d | 2025-09-15 | 8 | 1360 | 61 | 255 | 32 | 803 |
-| last720d | 2024-09-20 | 15 | 2120 | 74 | 1345 | 108 | 1392 |
+| 30d | 2026-08-12 | 0 | 267 | 24 | 28 | 6 | 176 |
+| last60d | 2026-07-13 | 2 | 418 | 37 | 87 | 10 | 284 |
+| 90d | 2026-06-13 | 2 | 592 | 40 | 113 | 14 | 410 |
+| last180d | 2026-03-15 | 4 | 904 | 47 | 160 | 17 | 570 |
+| 360d | 2025-09-16 | 8 | 1358 | 61 | 254 | 32 | 803 |
+| last720d | 2024-09-21 | 15 | 2117 | 74 | 1345 | 108 | 1392 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:46:51Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:27:45Z._
