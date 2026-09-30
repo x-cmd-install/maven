@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-4.0.0-rc-7` (2026-05-17)
-- **Last commit**: 2026-09-28
+- **Last commit**: 2026-09-29
 
 ## Popularity
 
-- **Stars**: 5,359 · **Forks**: 3,128 · **Open issues**: 8,690 · **Contributors**: 260
+- **Stars**: 5,360 · **Forks**: 3,118 · **Open issues**: 8,693 · **Contributors**: 260
 
 ## Totals (cumulative)
 
-- **Releases**: 35 · **Merged PRs**: 3202 · **Open PRs**: 101 · **Closed issues**: 8117 · **Open issues**: 573 · **Commits**: 16479
+- **Releases**: 35 · **Merged PRs**: 3205 · **Open PRs**: 101 · **Closed issues**: 8117 · **Open issues**: 576 · **Commits**: 16481
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 1 | 240 | 30 | 27 | 10 | 95 |
-| last60d | 2026-07-31 | 1 | 474 | 41 | 59 | 10 | 268 |
-| 90d | 2026-07-01 | 3 | 615 | 47 | 116 | 17 | 376 |
-| last180d | 2026-04-02 | 5 | 1006 | 54 | 169 | 19 | 622 |
-| 360d | 2025-10-04 | 9 | 1462 | 68 | 258 | 33 | 836 |
-| last720d | 2024-10-09 | 16 | 2226 | 80 | 1302 | 104 | 1398 |
+| 30d | 2026-08-31 | 1 | 228 | 30 | 27 | 12 | 97 |
+| last60d | 2026-08-01 | 1 | 475 | 41 | 59 | 13 | 270 |
+| 90d | 2026-07-02 | 3 | 617 | 47 | 116 | 20 | 378 |
+| last180d | 2026-04-03 | 5 | 1004 | 54 | 167 | 22 | 624 |
+| 360d | 2025-10-05 | 9 | 1465 | 68 | 258 | 36 | 838 |
+| last720d | 2024-10-10 | 16 | 2228 | 80 | 1297 | 106 | 1397 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:35:58Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:23:41Z._
