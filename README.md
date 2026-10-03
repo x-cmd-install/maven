@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,361 · **Forks**: 3,119 · **Open issues**: 8,698 · **Contributors**: 260
+- **Stars**: 5,361 · **Forks**: 3,117 · **Open issues**: 8,699 · **Contributors**: 260
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3215 · **Open PRs**: 104 · **Closed issues**: 8119 · **Open issues**: 579 · **Commits**: 16486
+- **Releases**: 36 · **Merged PRs**: 3218 · **Open PRs**: 104 · **Closed issues**: 8119 · **Open issues**: 580 · **Commits**: 16488
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 2 | 205 | 33 | 18 | 15 | 103 |
-| last60d | 2026-08-03 | 2 | 475 | 44 | 57 | 16 | 276 |
-| 90d | 2026-07-04 | 4 | 619 | 50 | 117 | 23 | 384 |
-| last180d | 2026-04-05 | 6 | 1014 | 57 | 169 | 25 | 630 |
-| 360d | 2025-10-07 | 10 | 1465 | 71 | 259 | 39 | 844 |
-| last720d | 2024-10-12 | 17 | 2236 | 83 | 1295 | 109 | 1400 |
+| 30d | 2026-09-03 | 2 | 202 | 32 | 18 | 15 | 106 |
+| last60d | 2026-08-04 | 2 | 470 | 44 | 55 | 17 | 279 |
+| 90d | 2026-07-05 | 4 | 620 | 50 | 117 | 24 | 387 |
+| last180d | 2026-04-06 | 6 | 1017 | 57 | 168 | 26 | 633 |
+| 360d | 2025-10-08 | 10 | 1453 | 71 | 259 | 40 | 847 |
+| last720d | 2024-10-13 | 17 | 2239 | 83 | 1289 | 110 | 1402 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T05:24:44Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T05:08:38Z._
