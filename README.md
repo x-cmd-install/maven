@@ -18,7 +18,7 @@ Total: **343,478** lines of code across **6497** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 241,537 | 117,883 | 50,567 | 3240 |
+| Java | 241,537 | 117,885 | 50,567 | 3240 |
 | Xml | 95,381 | 42,012 | 8,660 | 3213 |
 | Velocity | 4,994 | 257 | 443 | 27 |
 | Sh | 762 | 449 | 159 | 11 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-10-07
+- **Last commit**: 2026-10-08
 
 ## Popularity
 
-- **Stars**: 5,371 · **Forks**: 3,113 · **Open issues**: 8,710 · **Contributors**: 261
+- **Stars**: 5,370 · **Forks**: 3,114 · **Open issues**: 8,714 · **Contributors**: 261
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3245 · **Open PRs**: 113 · **Closed issues**: 8134 · **Open issues**: 576 · **Commits**: 16509
+- **Releases**: 36 · **Merged PRs**: 3246 · **Open PRs**: 115 · **Closed issues**: 8134 · **Open issues**: 580 · **Commits**: 16510
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 2 | 190 | 41 | 27 | 15 | 105 |
-| last60d | 2026-08-09 | 2 | 469 | 47 | 63 | 16 | 282 |
-| 90d | 2026-07-10 | 4 | 622 | 60 | 119 | 21 | 392 |
-| last180d | 2026-04-11 | 6 | 1031 | 65 | 172 | 24 | 654 |
-| 360d | 2025-10-13 | 10 | 1458 | 80 | 269 | 35 | 854 |
-| last720d | 2024-10-18 | 17 | 2240 | 92 | 1253 | 107 | 1391 |
+| 30d | 2026-09-09 | 2 | 190 | 42 | 25 | 19 | 107 |
+| last60d | 2026-08-10 | 2 | 468 | 49 | 61 | 21 | 284 |
+| 90d | 2026-07-11 | 4 | 617 | 62 | 118 | 26 | 394 |
+| last180d | 2026-04-12 | 6 | 1032 | 67 | 172 | 28 | 656 |
+| 360d | 2025-10-14 | 10 | 1452 | 82 | 269 | 38 | 856 |
+| last720d | 2024-10-19 | 17 | 2240 | 94 | 1253 | 111 | 1378 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T05:52:38Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T05:58:04Z._
