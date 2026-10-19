@@ -14,11 +14,11 @@ x install maven
 
 ## Code insight
 
-Total: **349,422** lines of code across **6546** files in the top 5 languages.
+Total: **349,462** lines of code across **6547** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 246,794 | 119,768 | 51,365 | 3276 |
+| Java | 246,834 | 119,789 | 51,376 | 3277 |
 | Xml | 95,630 | 42,159 | 8,669 | 3222 |
 | Velocity | 4,994 | 257 | 443 | 27 |
 | Sh | 1,162 | 603 | 249 | 14 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-10-17
+- **Last commit**: 2026-10-18
 
 ## Popularity
 
-- **Stars**: 5,378 · **Forks**: 3,122 · **Open issues**: 8,758 · **Contributors**: 266
+- **Stars**: 5,380 · **Forks**: 3,125 · **Open issues**: 8,758 · **Contributors**: 266
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3372 · **Open PRs**: 136 · **Closed issues**: 8174 · **Open issues**: 584 · **Commits**: 16570
+- **Releases**: 36 · **Merged PRs**: 3380 · **Open PRs**: 146 · **Closed issues**: 8174 · **Open issues**: 584 · **Commits**: 16572
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 2 | 226 | 67 | 34 | 42 | 99 |
-| last60d | 2026-08-19 | 2 | 567 | 77 | 67 | 45 | 321 |
-| 90d | 2026-07-20 | 3 | 713 | 89 | 132 | 49 | 436 |
-| last180d | 2026-04-21 | 5 | 1123 | 94 | 189 | 51 | 708 |
-| 360d | 2025-10-23 | 10 | 1543 | 106 | 282 | 60 | 877 |
-| last720d | 2024-10-28 | 17 | 2335 | 117 | 1226 | 124 | 1397 |
+| 30d | 2026-09-19 | 2 | 227 | 78 | 33 | 42 | 102 |
+| last60d | 2026-08-20 | 2 | 573 | 88 | 66 | 45 | 324 |
+| 90d | 2026-07-21 | 3 | 716 | 100 | 132 | 49 | 439 |
+| last180d | 2026-04-22 | 5 | 1129 | 104 | 188 | 51 | 711 |
+| 360d | 2025-10-24 | 10 | 1551 | 116 | 281 | 60 | 880 |
+| last720d | 2024-10-29 | 17 | 2342 | 127 | 1226 | 124 | 1399 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T04:20:47Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T04:27:31Z._
