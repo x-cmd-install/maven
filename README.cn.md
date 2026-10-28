@@ -32,7 +32,7 @@ x install maven
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Signed-Releases** (-1/10) — no releases found
 
 ## 源代码
 
@@ -43,26 +43,26 @@ x install maven
 ## 发布
 
 - **最新版本**: `maven-3.10.0` (2026-10-01)
-- **最近提交**: 2026-10-24
+- **最近提交**: 2026-10-28
 
 ## 流行度
 
-- **Star**: 5,373 · **Fork**: 3,077 · **开放 issue**: 8,772 · **贡献者**: 267
+- **Star**: 5,372 · **Fork**: 3,077 · **开放 issue**: 8,773 · **贡献者**: 267
 
 ## 累计统计
 
-- **发布数**: 36 · **已合并 PR**: 3473 · **开放 PR**: 124 · **已关闭 issue**: 8197 · **开放 issue**: 575 · **提交数**: 16609
+- **发布数**: 36 · **已合并 PR**: 3476 · **开放 PR**: 125 · **已关闭 issue**: 8198 · **开放 issue**: 575 · **提交数**: 16610
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 1 | 267 | 54 | 39 | 43 | 131 |
-| last60d | 2026-08-28 | 2 | 550 | 66 | 75 | 46 | 263 |
-| 90d | 2026-07-29 | 3 | 757 | 77 | 108 | 49 | 418 |
-| last180d | 2026-04-30 | 5 | 1197 | 84 | 198 | 52 | 744 |
-| 360d | 2025-11-01 | 10 | 1597 | 96 | 288 | 60 | 906 |
-| last720d | 2024-11-06 | 17 | 2417 | 106 | 1226 | 120 | 1424 |
+| 30d | 2026-09-28 | 1 | 257 | 55 | 40 | 43 | 132 |
+| last60d | 2026-08-29 | 2 | 541 | 67 | 75 | 46 | 264 |
+| 90d | 2026-07-30 | 3 | 748 | 77 | 108 | 49 | 419 |
+| last180d | 2026-05-01 | 5 | 1198 | 85 | 199 | 52 | 745 |
+| 360d | 2025-11-02 | 10 | 1600 | 97 | 288 | 60 | 907 |
+| last720d | 2024-11-07 | 17 | 2417 | 107 | 1227 | 120 | 1416 |
 
 ## 发行版状态
 
@@ -92,4 +92,4 @@ maven 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T04:50:46Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T05:25:44Z._
