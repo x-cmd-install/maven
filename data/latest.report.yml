@@ -2,100 +2,100 @@ about:
   description: "Apache Maven core"
   license: Apache-2.0
   homepage: https://maven.apache.org/ref/current
-  head: 9ad8307
+  head: b46f935
   archived: false
   latestVersion: "maven-3.10.0"
   latestRelease: "maven-3.10.0"
   latestPrerelease: "maven-4.0.0-rc-7"
-  collectedAt: 2026-10-29T05:34:28Z
+  collectedAt: 2026-10-30T05:34:23Z
 timeline:
   created: 2009-05-21
-  lastCommit: 2026-10-28
+  lastCommit: 2026-10-29
   lastVersion: 2026-10-01
   lastRelease: 2026-10-01
   lastPrerelease: 2026-09-24
 popularity:
   star: 5371
-  watcher: 236
-  fork: 3079
+  watcher: 234
+  fork: 3075
   release: 36
   contributor: 267
-  pullRequest: 4910
-  issue: 8776
+  pullRequest: 4920
+  issue: 8783
 language:
-  Java: 16748845
+  Java: 16754073
   Shell: 74296
   Batchfile: 32385
   Dockerfile: 6961
   Makefile: 2938
   HTML: 2379
   Groovy: 991
-totalBytes: 16868795
+totalBytes: 16874023
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 1
-    mergedPR: 257
+    mergedPR: 254
     openPR: 55
-    closedIssue: 39
-    openIssue: 44
-    commit: 134
-  last60d:
-    since: 2026-08-30
-    release: 2
-    mergedPR: 512
-    openPR: 66
-    closedIssue: 75
+    closedIssue: 37
     openIssue: 48
-    commit: 266
+    commit: 138
+  last60d:
+    since: 2026-08-31
+    release: 2
+    mergedPR: 499
+    openPR: 67
+    closedIssue: 76
+    openIssue: 53
+    commit: 270
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 2
     mergedPR: 746
-    openPR: 77
-    closedIssue: 107
-    openIssue: 48
-    commit: 421
+    openPR: 78
+    closedIssue: 109
+    openIssue: 53
+    commit: 425
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 5
-    mergedPR: 1202
-    openPR: 85
-    closedIssue: 200
-    openIssue: 54
-    commit: 747
+    mergedPR: 1204
+    openPR: 86
+    closedIssue: 202
+    openIssue: 59
+    commit: 751
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 10
-    mergedPR: 1599
-    openPR: 97
+    mergedPR: 1597
+    openPR: 98
     closedIssue: 287
-    openIssue: 62
-    commit: 909
+    openIssue: 67
+    commit: 913
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 17
-    mergedPR: 2418
-    openPR: 107
-    closedIssue: 1228
-    openIssue: 122
-    commit: 1414
+    mergedPR: 2420
+    openPR: 108
+    closedIssue: 1230
+    openIssue: 127
+    commit: 1412
 total:
   release: 36
-  mergedPR: 3480
-  openPR: 125
-  closedIssue: 8200
-  openIssue: 576
-  commit: 16612
+  mergedPR: 3486
+  openPR: 126
+  closedIssue: 8202
+  openIssue: 581
+  commit: 16616
 ---
 path: /home/runner/.x-repo/github.com/apache/maven
-collectedAt: 2026-10-29T05:34:41Z
+collectedAt: 2026-10-30T05:34:49Z
 loc:
   Java:
-    code: 253877
-    comments: 123837
-    blanks: 52961
-    files: 3346
+    code: 253961
+    comments: 123863
+    blanks: 52975
+    files: 3347
   Xml:
     code: 95979
     comments: 42397
@@ -162,10 +162,10 @@ loc:
     blanks: 374
     files: 60
 total:
-  code: 357037
-  comments: 175492
-  blanks: 63567
-  files: 6764
+  code: 357121
+  comments: 175518
+  blanks: 63581
+  files: 6765
 ---
 date: "2026-10-26"
 repo:
