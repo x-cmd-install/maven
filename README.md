@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
-- **Stars**: 5,371 · **Forks**: 3,077 · **Open issues**: 8,788 · **Contributors**: 267
+- **Stars**: 5,371 · **Forks**: 3,076 · **Open issues**: 8,788 · **Contributors**: 267
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3507 · **Open PRs**: 114 · **Closed issues**: 8209 · **Open issues**: 579 · **Commits**: 16635
+- **Releases**: 36 · **Merged PRs**: 3510 · **Open PRs**: 121 · **Closed issues**: 8209 · **Open issues**: 579 · **Commits**: 16637
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 264 | 43 | 42 | 47 | 128 |
-| last60d | 2026-09-02 | 2 | 488 | 55 | 71 | 52 | 239 |
-| 90d | 2026-08-03 | 2 | 758 | 66 | 111 | 52 | 413 |
-| last180d | 2026-05-05 | 5 | 1223 | 74 | 208 | 58 | 768 |
-| 360d | 2025-11-06 | 10 | 1609 | 85 | 291 | 64 | 923 |
-| last720d | 2024-11-11 | 17 | 2438 | 96 | 1231 | 123 | 1431 |
+| 30d | 2026-10-03 | 0 | 267 | 50 | 40 | 47 | 130 |
+| last60d | 2026-09-03 | 2 | 485 | 62 | 70 | 52 | 241 |
+| 90d | 2026-08-04 | 2 | 754 | 73 | 109 | 52 | 415 |
+| last180d | 2026-05-06 | 5 | 1227 | 81 | 208 | 58 | 770 |
+| 360d | 2025-11-07 | 10 | 1609 | 92 | 290 | 64 | 925 |
+| last720d | 2024-11-12 | 17 | 2440 | 103 | 1231 | 123 | 1431 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T05:50:15Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T05:49:30Z._
