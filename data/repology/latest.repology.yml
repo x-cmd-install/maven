@@ -22,44 +22,69 @@
     - ASL 2.0 and MIT
   categories:
     - Unspecified
-- repo: arch
-  subrepo: extra
-  srcname: maven
-  binname: maven
-  visiblename: maven
-  version: 3.10.0
-  origversion: 3.10.0-1
-  status: newest
-  summary: Java project management and project comprehension tool
+- repo: npackd_stable
+  srcname: org.apache.Maven
+  binname: org.apache.Maven
+  visiblename: Maven
+  version: 3.9.12
+  origversion: null
+  status: outdated
   licenses:
-    - Apache-2.0
-- repo: artix
-  subrepo: world
-  srcname: maven
-  binname: maven
-  visiblename: maven
-  version: 3.10.0
-  origversion: 3.10.0-1
-  status: newest
-  summary: Java project management and project comprehension tool
-  licenses:
-    - Apache-2.0
-- repo: deepin_25
-  subrepo: main
+    - Apache License 2.0
+  categories:
+    - Development
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: maven
   binnames:
     - libmaven3-core-java
     - maven
   visiblename: maven
   version: 3.9.9
-  origversion: 3.9.9-1deepin1
+  origversion: 3.9.9-1
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
     - skitt@debian.org
   categories:
-    - misc
+    - java
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.8.7
+  origversion: 3.8.7-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
+- repo: npackd_stable
+  srcname: org.apache.Maven
+  binname: org.apache.Maven
+  visiblename: Maven
+  version: 3.9.11
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+- repo: aerynos
+  srcname: maven
+  visiblename: maven
+  version: 3.10.0
+  origversion: null
+  status: newest
+  summary: Build automation tool for Java Projects
+  licenses:
+    - Apache-2.0
 - repo: almalinux_8
   subrepo: AppStream
   srcname: maven
@@ -74,28 +99,6 @@
     - ASL 2.0 and MIT
   categories:
     - Unspecified
-- repo: alpine_3_22
-  subrepo: community
-  srcname: maven
-  binname: maven
-  visiblename: maven
-  version: 3.9.9
-  origversion: 3.9.9-r0
-  status: outdated
-  summary: Java project management and project comprehension tool
-  maintainers:
-    - developer@it-offshore.co.uk
-  licenses:
-    - Apache-2.0
-- repo: aerynos
-  srcname: maven
-  visiblename: maven
-  version: 3.10.0
-  origversion: null
-  status: newest
-  summary: Build automation tool for Java Projects
-  licenses:
-    - Apache-2.0
 - repo: almalinux_9
   subrepo: AppStream
   srcname: maven
@@ -194,6 +197,19 @@
   licenses:
     - Apache-2.0
 - repo: alpine_3_21
+  subrepo: community
+  srcname: maven
+  binname: maven
+  visiblename: maven
+  version: 3.9.9
+  origversion: 3.9.9-r0
+  status: outdated
+  summary: Java project management and project comprehension tool
+  maintainers:
+    - developer@it-offshore.co.uk
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
   subrepo: community
   srcname: maven
   binname: maven
@@ -319,22 +335,28 @@
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
     - skitt@debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: arch
+  subrepo: extra
   srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
+  binname: maven
   visiblename: maven
-  version: 3.9.14
-  origversion: 3.9.14-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
+  version: 3.10.0
+  origversion: 3.10.0-1
+  status: newest
+  summary: Java project management and project comprehension tool
+  licenses:
+    - Apache-2.0
+- repo: artix
+  subrepo: world
+  srcname: maven
+  binname: maven
+  visiblename: maven
+  version: 3.10.0
+  origversion: 3.10.0-1
+  status: newest
+  summary: Java project management and project comprehension tool
+  licenses:
+    - Apache-2.0
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: maven
@@ -402,6 +424,22 @@
     - ASL 2.0 and MIT
   categories:
     - Unspecified
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.8.7
+  origversion: 3.8.7-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
 - repo: centos_stream_9
   subrepo: AppStream
   srcname: maven
@@ -564,22 +602,6 @@
   version: 3.9.2
   origversion: null
   status: legacy
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.8.7
-  origversion: 3.8.7-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
 - repo: debian_13
   subrepo: trixie/main
   srcname: maven
@@ -637,6 +659,38 @@
   visiblename: maven
   version: 3.8.7
   origversion: 3.8.7-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
+- repo: deepin_25
+  subrepo: main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.9.9
+  origversion: 3.9.9-1deepin1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.9.14
+  origversion: 3.9.14-1
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -872,6 +926,22 @@
     - Apache-2.0 AND MIT
   categories:
     - Unspecified
+- repo: kali_rolling
+  subrepo: main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.9.12
+  origversion: 3.9.12-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
 - repo: freebsd
   srcname: devel/maven310
   binname: maven310
@@ -961,22 +1031,6 @@
   origversion: null
   status: newest
   summary: Java-based project management
-- repo: kali_rolling
-  subrepo: main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.9.12
-  origversion: 3.9.12-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
 - repo: liguros_stable
   srcname: dev-java/maven-bin
   visiblename: dev-java/maven-bin
@@ -1160,23 +1214,23 @@
   srcname: maven
   binname: maven
   visiblename: maven
-  version: 3.9.16
-  origversion: 3.9.16-1
+  version: 3.8.7
+  origversion: 3.8.7-1
   status: outdated
   summary: Java project management and project comprehension tool
   licenses:
-    - Apache-2.0
+    - APACHE
 - repo: manjaro_testing
   subrepo: extra
   srcname: maven
   binname: maven
   visiblename: maven
-  version: 3.9.16
-  origversion: 3.9.16-1
+  version: 3.8.7
+  origversion: 3.8.7-1
   status: outdated
   summary: Java project management and project comprehension tool
   licenses:
-    - Apache-2.0
+    - APACHE
 - repo: manjaro_unstable
   subrepo: extra
   srcname: maven
@@ -1245,6 +1299,17 @@
     - sean@msgilligan.com
   licenses:
     - Apache-2.0
+- repo: npackd_stable
+  srcname: org.apache.Maven
+  binname: org.apache.Maven
+  visiblename: Maven
+  version: 3.9.10
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
 - repo: nix_stable_26_05
   srcname: maven
   visiblename: maven
@@ -1418,39 +1483,6 @@
     - Apache License 2.0
   categories:
     - Development
-- repo: npackd_stable
-  srcname: org.apache.Maven
-  binname: org.apache.Maven
-  visiblename: Maven
-  version: 3.9.10
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: org.apache.Maven
-  binname: org.apache.Maven
-  visiblename: Maven
-  version: 3.9.11
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: org.apache.Maven
-  binname: org.apache.Maven
-  visiblename: Maven
-  version: 3.9.12
-  origversion: null
-  status: outdated
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
 - repo: openbsd
   srcname: devel/maven
   binname: maven
@@ -1468,7 +1500,7 @@
   srcname: maven
   binname: developer/build/maven
   visiblename: maven
-  version: 3.9.15
+  version: 3.9.14
   origversion: null
   status: legacy
   summary: Apache Maven is a software project management and comprehension tool
@@ -1479,7 +1511,7 @@
   srcname: maven
   binname: developer/build/maven
   visiblename: maven
-  version: 3.9.14
+  version: 3.9.15
   origversion: null
   status: legacy
   summary: Apache Maven is a software project management and comprehension tool
@@ -1788,38 +1820,6 @@
   version: 3.9.11
   origversion: 3.9.11-1
   status: outdated
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.9.9
-  origversion: 3.9.9-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.8.7
-  origversion: 3.8.7-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
 - repo: raspbian_stable
   subrepo: main
   srcname: maven
@@ -1866,6 +1866,16 @@
     - ASL 2.0 and MIT
   categories:
     - Unspecified
+- repo: termux
+  srcname: maven
+  binname: maven
+  visiblename: maven
+  version: 3.10.0
+  origversion: null
+  status: newest
+  summary: A Java software project management and comprehension tool
+  maintainers:
+    - termux@github
 - repo: rocky_9
   subrepo: AppStream
   srcname: maven
@@ -2032,16 +2042,6 @@
     - APL
   categories:
     - extra/development
-- repo: termux
-  srcname: maven
-  binname: maven
-  visiblename: maven
-  version: 3.10.0
-  origversion: null
-  status: newest
-  summary: A Java software project management and comprehension tool
-  maintainers:
-    - termux@github
 - repo: ubi_8
   subrepo: appstream
   srcname: maven
@@ -2157,72 +2157,6 @@
   licenses:
     - Apache Software License 2.0
 - repo: eurolinux_8
-  subrepo: appstream
-  srcname: maven
-  visiblename: maven
-  version: 3.5.4
-  origversion: 1:3.5.4-5.module+el8+2452+b359bfcd
-  status: legacy
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: maven
-  visiblename: maven
-  version: 3.6.2
-  origversion: 1:3.6.2-5.module+el8.3.0+6804+157bd82e
-  status: outdated
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: maven
-  visiblename: maven
-  version: 3.6.2
-  origversion: 1:3.6.2-6.module+el8.4.0+9250+1786af37
-  status: outdated
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.6.3
-  origversion: 3.6.3-5
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
-  vulnerable: true
-- repo: pclinuxos
-  srcname: apache-maven
-  visiblename: apache-maven
-  version: 3.5.0
-  origversion: 3.5.0-1pclos2017
-  status: outdated
-  summary: Apache Maven is a software project management and comprehension tool.
-  categories:
-    - Development/Java
-  vulnerable: true
-- repo: eurolinux_8
   subrepo: powertools
   srcname: maven
   visiblename: maven
@@ -2248,44 +2182,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: maven
-  binnames:
-    - maven
-    - maven-lib
-    - maven-openjdk8
-    - maven-openjdk11
-    - maven-openjdk17
-  visiblename: maven
-  version: 3.6.3
-  origversion: 1:3.6.3-14.el9
-  status: legacy
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: maven
-  binnames:
-    - maven
-    - maven-lib
-    - maven-openjdk8
-    - maven-openjdk11
-    - maven-openjdk17
-  visiblename: maven
-  version: 3.6.3
-  origversion: 1:3.6.3-15.el9
-  status: legacy
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
   srcname: maven
@@ -2300,19 +2196,6 @@
     - ASL 2.0 and MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: maven
-  visiblename: maven
-  version: 3.0.5
-  origversion: 3.0.5-17.el7
-  status: outdated
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
   vulnerable: true
 - repo: almalinux_8
   subrepo: AppStream
@@ -2341,36 +2224,6 @@
     - packager@almalinux.org
   licenses:
     - ASL 2.0 and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.6.3
-  origversion: 3.6.3-5
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: maven2
-  visiblename: maven2
-  version: 2.2.1
-  origversion: 2.2.1-47.el7
-  status: legacy
-  summary: Java project management and project comprehension tool
-  licenses:
-    - ASL 2.0 and MIT and BSD
   categories:
     - Unspecified
   vulnerable: true
@@ -2489,6 +2342,32 @@
     - pkg-java-maintainers@lists.alioth.debian.org
     - ebourg@apache.org
     - skitt@debian.org
+  vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: maven
+  visiblename: maven
+  version: 3.0.5
+  origversion: 3.0.5-17.el7
+  status: outdated
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
+  vulnerable: true
+- repo: centos_7
+  subrepo: os
+  srcname: maven2
+  visiblename: maven2
+  version: 2.2.1
+  origversion: 2.2.1-47.el7
+  status: legacy
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT and BSD
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: centos_8
   subrepo: AppStream
@@ -2710,18 +2589,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: ibmi
-  srcname: maven
-  visiblename: maven
-  version: 3.6.0
-  origversion: 3.6.0-2
-  status: outdated
-  summary: Apache Maven
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: maven
@@ -2739,6 +2606,25 @@
   categories:
     - java
   vulnerable: true
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: maven
+  binnames:
+    - maven
+    - maven-lib
+    - maven-openjdk8
+    - maven-openjdk11
+    - maven-openjdk17
+  visiblename: maven
+  version: 3.6.3
+  origversion: 1:3.6.3-14.el9
+  status: legacy
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: deepin_unstable
   subrepo: main
   srcname: maven
@@ -2754,8 +2640,64 @@
     - ebourg@apache.org
     - skitt@debian.org
   vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.6.3
+  origversion: 3.6.3-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: maven
+  visiblename: maven
+  version: 3.5.4
+  origversion: 1:3.5.4-5.module+el8+2452+b359bfcd
+  status: legacy
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: maven
+  visiblename: maven
+  version: 3.6.2
+  origversion: 1:3.6.2-5.module+el8.3.0+6804+157bd82e
+  status: outdated
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: maven
+  visiblename: maven
+  version: 3.6.2
+  origversion: 1:3.6.2-6.module+el8.4.0+9250+1786af37
+  status: outdated
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: eurolinux_9
-  subrepo: baseos
+  subrepo: appstream
   srcname: maven
   binnames:
     - maven
@@ -2766,6 +2708,25 @@
   visiblename: maven
   version: 3.6.3
   origversion: 1:3.6.3-14.el9
+  status: legacy
+  summary: Java project management and project comprehension tool
+  licenses:
+    - ASL 2.0 and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: maven
+  binnames:
+    - maven
+    - maven-lib
+    - maven-openjdk8
+    - maven-openjdk11
+    - maven-openjdk17
+  visiblename: maven
+  version: 3.6.3
+  origversion: 1:3.6.3-15.el9
   status: legacy
   summary: Java project management and project comprehension tool
   licenses:
@@ -2795,6 +2756,18 @@
   summary: Software project management and comprehension tool.
   licenses:
     - Apache License 2.0
+  vulnerable: true
+- repo: ibmi
+  srcname: maven
+  visiblename: maven
+  version: 3.6.0
+  origversion: 3.6.0-2
+  status: outdated
+  summary: Apache Maven
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: macports
   srcname: java/maven2
@@ -3195,18 +3168,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: parabola
-  subrepo: libre
-  srcname: maven
-  binname: maven
-  visiblename: maven
-  version: 3.3.9
-  origversion: 3.3.9-1.parabola2
-  status: outdated
-  summary: A Java project management and project comprehension tool
-  licenses:
-    - Apache
-  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: maven
@@ -3223,6 +3184,23 @@
     - ASL 2.0
   categories:
     - Development/Java
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.6.3
+  origversion: 3.6.3-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
   vulnerable: true
 - repo: openpkg_current
   srcname: maven
@@ -3288,6 +3266,45 @@
   categories:
     - Development/Libraries/Java
   vulnerable: true
+- repo: parabola
+  subrepo: libre
+  srcname: maven
+  binname: maven
+  visiblename: maven
+  version: 3.3.9
+  origversion: 3.3.9-1.parabola2
+  status: outdated
+  summary: A Java project management and project comprehension tool
+  licenses:
+    - Apache
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: maven
+  binnames:
+    - libmaven3-core-java
+    - maven
+  visiblename: maven
+  version: 3.6.3
+  origversion: 3.6.3-5
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - ebourg@apache.org
+    - skitt@debian.org
+  categories:
+    - java
+  vulnerable: true
+- repo: pclinuxos
+  srcname: apache-maven
+  visiblename: apache-maven
+  version: 3.5.0
+  origversion: 3.5.0-1pclos2017
+  status: outdated
+  summary: Apache Maven is a software project management and comprehension tool.
+  categories:
+    - Development/Java
+  vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
   srcname: maven
@@ -3297,23 +3314,6 @@
   visiblename: maven
   version: 3.6.0
   origversion: 3.6.0-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - ebourg@apache.org
-    - skitt@debian.org
-  categories:
-    - java
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: maven
-  binnames:
-    - libmaven3-core-java
-    - maven
-  visiblename: maven
-  version: 3.6.3
-  origversion: 3.6.3-5
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
