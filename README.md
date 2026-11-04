@@ -14,11 +14,11 @@ x install maven
 
 ## Code insight
 
-Total: **357,616** lines of code across **6639** files in the top 5 languages.
+Total: **357,764** lines of code across **6639** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 254,439 | 124,245 | 53,067 | 3358 |
+| Java | 254,587 | 124,255 | 53,045 | 3358 |
 | Xml | 96,080 | 42,394 | 8,688 | 3233 |
 | Velocity | 4,996 | 257 | 443 | 27 |
 | Sh | 1,162 | 603 | 249 | 14 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-04
 
 ## Popularity
 
-- **Stars**: 5,372 · **Forks**: 3,075 · **Open issues**: 8,791 · **Contributors**: 267
+- **Stars**: 5,372 · **Forks**: 3,075 · **Open issues**: 8,799 · **Contributors**: 269
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3510 · **Open PRs**: 133 · **Closed issues**: 8209 · **Open issues**: 582 · **Commits**: 16637
+- **Releases**: 36 · **Merged PRs**: 3526 · **Open PRs**: 123 · **Closed issues**: 8210 · **Open issues**: 589 · **Commits**: 16645
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 262 | 61 | 39 | 50 | 130 |
-| last60d | 2026-09-04 | 2 | 473 | 73 | 69 | 55 | 241 |
-| 90d | 2026-08-05 | 2 | 753 | 85 | 108 | 55 | 415 |
-| last180d | 2026-05-07 | 5 | 1225 | 93 | 207 | 61 | 770 |
-| 360d | 2025-11-08 | 10 | 1608 | 103 | 290 | 67 | 925 |
-| last720d | 2024-11-13 | 17 | 2437 | 115 | 1227 | 126 | 1429 |
+| 30d | 2026-10-05 | 0 | 262 | 50 | 38 | 55 | 140 |
+| last60d | 2026-09-05 | 2 | 483 | 63 | 70 | 62 | 251 |
+| 90d | 2026-08-06 | 2 | 763 | 75 | 109 | 62 | 425 |
+| last180d | 2026-05-08 | 5 | 1237 | 83 | 208 | 68 | 780 |
+| 360d | 2025-11-09 | 10 | 1624 | 93 | 291 | 74 | 935 |
+| last720d | 2024-11-14 | 17 | 2449 | 105 | 1225 | 132 | 1430 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:30:38Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:08:10Z._
