@@ -14,25 +14,25 @@ x install maven
 
 ## Code insight
 
-Total: **357,764** lines of code across **6639** files in the top 5 languages.
+Total: **358,925** lines of code across **6659** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Java | 254,587 | 124,255 | 53,045 | 3358 |
-| Xml | 96,080 | 42,394 | 8,688 | 3233 |
+| Java | 255,759 | 125,796 | 53,278 | 3381 |
+| Xml | 96,069 | 42,411 | 8,690 | 3230 |
 | Velocity | 4,996 | 257 | 443 | 27 |
 | Sh | 1,162 | 603 | 249 | 14 |
 | Batch | 687 | 0 | 88 | 7 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.1 / 10**
+Overall score: **7 / 10**
 
 Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (-1/10) — no releases found
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-11-04
+- **Last commit**: 2026-11-05
 
 ## Popularity
 
-- **Stars**: 5,372 · **Forks**: 3,075 · **Open issues**: 8,799 · **Contributors**: 269
+- **Stars**: 5,372 · **Forks**: 3,076 · **Open issues**: 8,804 · **Contributors**: 272
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3526 · **Open PRs**: 123 · **Closed issues**: 8210 · **Open issues**: 589 · **Commits**: 16645
+- **Releases**: 36 · **Merged PRs**: 3545 · **Open PRs**: 119 · **Closed issues**: 8217 · **Open issues**: 587 · **Commits**: 16658
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 262 | 50 | 38 | 55 | 140 |
-| last60d | 2026-09-05 | 2 | 483 | 63 | 70 | 62 | 251 |
-| 90d | 2026-08-06 | 2 | 763 | 75 | 109 | 62 | 425 |
-| last180d | 2026-05-08 | 5 | 1237 | 83 | 208 | 68 | 780 |
-| 360d | 2025-11-09 | 10 | 1624 | 93 | 291 | 74 | 935 |
-| last720d | 2024-11-14 | 17 | 2449 | 105 | 1225 | 132 | 1430 |
+| 30d | 2026-10-06 | 0 | 271 | 50 | 43 | 54 | 156 |
+| last60d | 2026-09-06 | 2 | 498 | 62 | 76 | 61 | 267 |
+| 90d | 2026-08-07 | 2 | 772 | 70 | 114 | 61 | 441 |
+| last180d | 2026-05-09 | 5 | 1254 | 79 | 214 | 67 | 796 |
+| 360d | 2025-11-10 | 10 | 1625 | 89 | 297 | 73 | 951 |
+| last720d | 2024-11-15 | 17 | 2464 | 101 | 1228 | 130 | 1443 |
 
 ## Distribution status
 
-Reported by **251** distros on [repology.org](https://repology.org/project/maven). **21** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
+Reported by **251** distros on [repology.org](https://repology.org/project/maven). **22** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:08:10Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:28:51Z._
