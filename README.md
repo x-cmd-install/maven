@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `maven-3.10.0` (2026-10-01)
-- **Last commit**: 2026-11-10
+- **Last commit**: 2026-11-12
 
 ## Popularity
 
-- **Stars**: 5,375 · **Forks**: 3,076 · **Open issues**: 8,814 · **Contributors**: 274
+- **Stars**: 5,376 · **Forks**: 3,076 · **Open issues**: 8,814 · **Contributors**: 274
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3649 · **Open PRs**: 79 · **Closed issues**: 8240 · **Open issues**: 574 · **Commits**: 16715
+- **Releases**: 36 · **Merged PRs**: 3651 · **Open PRs**: 82 · **Closed issues**: 8242 · **Open issues**: 572 · **Commits**: 16716
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 324 | 23 | 45 | 46 | 179 |
-| last60d | 2026-09-12 | 2 | 574 | 28 | 88 | 54 | 324 |
-| 90d | 2026-08-13 | 2 | 852 | 33 | 122 | 55 | 517 |
-| last180d | 2026-05-15 | 5 | 1326 | 42 | 225 | 61 | 863 |
-| 360d | 2025-11-16 | 9 | 1708 | 52 | 309 | 67 | 1012 |
-| last720d | 2024-11-21 | 17 | 2553 | 62 | 1235 | 123 | 1481 |
+| 30d | 2026-10-13 | 0 | 299 | 26 | 40 | 37 | 180 |
+| last60d | 2026-09-13 | 2 | 572 | 31 | 89 | 52 | 325 |
+| 90d | 2026-08-14 | 2 | 852 | 36 | 123 | 53 | 518 |
+| last180d | 2026-05-16 | 5 | 1328 | 45 | 227 | 58 | 864 |
+| 360d | 2025-11-17 | 9 | 1710 | 55 | 310 | 65 | 1013 |
+| last720d | 2024-11-22 | 17 | 2553 | 65 | 1235 | 121 | 1481 |
 
 ## Distribution status
 
-Reported by **253** distros on [repology.org](https://repology.org/project/maven). **24** are ✅ on the latest upstream release, **142** are ⚠️ on an older version.
+Reported by **254** distros on [repology.org](https://repology.org/project/maven). **24** are ✅ on the latest upstream release, **143** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T05:57:03Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:00:27Z._
