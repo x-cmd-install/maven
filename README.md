@@ -42,31 +42,31 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `maven-3.10.0` (2026-10-01)
+- **Latest**: `maven-3.10.1` (2026-11-15)
 - **Last commit**: 2026-11-14
 
 ## Popularity
 
-- **Stars**: 5,378 · **Forks**: 3,075 · **Open issues**: 8,823 · **Contributors**: 274
+- **Stars**: 5,377 · **Forks**: 3,076 · **Open issues**: 8,826 · **Contributors**: 274
 
 ## Totals (cumulative)
 
-- **Releases**: 36 · **Merged PRs**: 3691 · **Open PRs**: 89 · **Closed issues**: 8247 · **Open issues**: 576 · **Commits**: 16737
+- **Releases**: 37 · **Merged PRs**: 3693 · **Open PRs**: 95 · **Closed issues**: 8247 · **Open issues**: 579 · **Commits**: 16737
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 274 | 31 | 37 | 30 | 161 |
-| last60d | 2026-09-16 | 2 | 562 | 38 | 89 | 57 | 313 |
-| 90d | 2026-08-17 | 2 | 889 | 43 | 124 | 59 | 537 |
-| last180d | 2026-05-19 | 4 | 1328 | 52 | 222 | 64 | 848 |
-| 360d | 2025-11-20 | 9 | 1739 | 62 | 311 | 70 | 1030 |
-| last720d | 2024-11-25 | 17 | 2590 | 72 | 1234 | 127 | 1499 |
+| 30d | 2026-10-17 | 1 | 264 | 36 | 35 | 33 | 161 |
+| last60d | 2026-09-17 | 3 | 551 | 44 | 88 | 60 | 313 |
+| 90d | 2026-08-18 | 3 | 887 | 49 | 121 | 62 | 537 |
+| last180d | 2026-05-20 | 5 | 1309 | 58 | 222 | 67 | 848 |
+| 360d | 2025-11-21 | 10 | 1737 | 68 | 311 | 73 | 1030 |
+| last720d | 2024-11-26 | 18 | 2592 | 78 | 1232 | 130 | 1494 |
 
 ## Distribution status
 
-Reported by **254** distros on [repology.org](https://repology.org/project/maven). **24** are ✅ on the latest upstream release, **143** are ⚠️ on an older version.
+Reported by **255** distros on [repology.org](https://repology.org/project/maven). **9** are ✅ on the latest upstream release, **158** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,13 +75,13 @@ Reported by **254** distros on [repology.org](https://repology.org/project/maven
 | Debian 13 | `3.9.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.9.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.8.7` | ⚠️ outdated |
-| Arch | `3.10.0` | ✅ latest |
-| Homebrew | `3.10.0` | ✅ latest |
+| Arch | `3.10.0` | ⚠️ outdated |
+| Homebrew | `3.10.1` | ✅ latest |
 | Fedora rawhide | `3.9.11` | ⚠️ outdated |
-| Nix unstable | `3.10.0` | ✅ latest |
+| Nix unstable | `3.10.0` | ⚠️ outdated |
 | Void | `3.9.10` | ⚠️ outdated |
-| Alpine edge | `3.10.0` | ✅ latest |
-| openSUSE Tumbleweed | `3.10.0` | ✅ latest |
+| Alpine edge | `3.10.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.10.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:12:19Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:10:08Z._
