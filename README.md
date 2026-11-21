@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,375 · **Forks**: 3,076 · **Open issues**: 8,829 · **Contributors**: 276
+- **Stars**: 5,377 · **Forks**: 3,077 · **Open issues**: 8,833 · **Contributors**: 276
 
 ## Totals (cumulative)
 
-- **Releases**: 37 · **Merged PRs**: 3746 · **Open PRs**: 84 · **Closed issues**: 8256 · **Open issues**: 573 · **Commits**: 16762
+- **Releases**: 37 · **Merged PRs**: 3746 · **Open PRs**: 84 · **Closed issues**: 8257 · **Open issues**: 576 · **Commits**: 16762
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 264 | 25 | 37 | 29 | 191 |
-| last60d | 2026-09-21 | 3 | 565 | 31 | 85 | 56 | 343 |
-| 90d | 2026-08-22 | 3 | 929 | 39 | 123 | 59 | 567 |
-| last180d | 2026-05-24 | 5 | 1357 | 47 | 228 | 64 | 878 |
-| 360d | 2025-11-25 | 10 | 1784 | 57 | 313 | 69 | 1060 |
-| last720d | 2024-11-30 | 16 | 2642 | 67 | 1223 | 124 | 1516 |
+| 30d | 2026-10-22 | 1 | 246 | 25 | 36 | 31 | 191 |
+| last60d | 2026-09-22 | 3 | 553 | 31 | 86 | 59 | 343 |
+| 90d | 2026-08-23 | 3 | 928 | 39 | 123 | 62 | 567 |
+| last180d | 2026-05-25 | 5 | 1352 | 47 | 229 | 67 | 878 |
+| 360d | 2025-11-26 | 10 | 1781 | 57 | 313 | 72 | 1060 |
+| last720d | 2024-12-01 | 16 | 2641 | 67 | 1224 | 127 | 1516 |
 
 ## Distribution status
 
-Reported by **253** distros on [repology.org](https://repology.org/project/maven). **14** are ✅ on the latest upstream release, **153** are ⚠️ on an older version.
+Reported by **252** distros on [repology.org](https://repology.org/project/maven). **15** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -81,7 +81,7 @@ Reported by **253** distros on [repology.org](https://repology.org/project/maven
 | Nix unstable | `3.10.1` | ✅ latest |
 | Void | `3.9.10` | ⚠️ outdated |
 | Alpine edge | `3.10.1` | ✅ latest |
-| openSUSE Tumbleweed | `3.10.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.0.0~rc7` | devel |
 
 ## Improve this data
 
@@ -92,4 +92,4 @@ Install metadata for maven lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:10:09Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:04:24Z._
