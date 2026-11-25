@@ -43,11 +43,11 @@
   "body": "<!-- Optional: add a release summary here -->\r\n## 🐛 Bug Fixes\r\n\r\n- Enable ANSI colors on Windows 11 terminals without WT_SESSION (#14039) @cstamas\r\n- Fix #13985: Do not reuse imported dependency management cached without locations (#13988) @dodoshell\r\n- Let build extensions override core lifecycle mappings again (#14016) @slachiewicz\r\n- [3.10.x] Protect cached version range restrictions (#13997) @AmarGhugare\r\n- Respect plugin-level inherited=false when the plugin has executions (fixes #7476) (#13952) @arturobernalg\r\n- [[MNG-6864]](https://issues.apache.org/jira/browse/MNG-6864) - Report well-formed-but-invalid POMs as invalid, not malformed (#13953) @arturobernalg\r\n- Report a clear error for an unparsable extensions.xml (#13947) @arturobernalg\r\n\r\n## 📦 Dependency updates\r\n\r\n- build: bump actions/setup-java from 6.2.0 to 6.3.0 (#14052) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n- deps: minor updates (#14042) @cstamas\r\n- deps: resolver 2.0.26 (#14040) @cstamas\r\n- build: bump org.codehaus.modello:modello-maven-plugin from 2.8.1 to 2.9.0 (#14023) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n- build: bump org.codehaus.mojo:exec-maven-plugin from 3.6.4 to 3.7.0 (#13980) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n- build: bump org.codehaus.mojo:buildnumber-maven-plugin from 3.3.1 to 3.4.0 (#13978) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n- build: bump org.codehaus.mojo:build-helper-maven-plugin from 3.7.0 to 3.8.0 (#13977) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n- build: bump org.codehaus.mojo:animal-sniffer-maven-plugin from 1.29 to 1.29.1 (#13981) @[dependabot[bot]](https://github.com/apps/dependabot)\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/apache/maven/releases/454407186/reactions",
-    "total_count": 4,
+    "total_count": 5,
     "+1": 1,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 3,
     "confused": 0,
     "heart": 1,
     "rocket": 0,
